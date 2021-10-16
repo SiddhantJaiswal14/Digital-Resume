@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #000;
+    color:#fff;
+    
+}
+
+.text-cent{
+    text-align: center;
+}
+
+ul li{
+    text-align: left;
+    /* padding-left:15px; */
+    list-style-position: outside;
+    line-height:0.7cm;
+}
+
+.left-shift{
+    padding-left: 23px;
+}
+a{
+    text-decoration:none;
+    color:white;
+
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header-top{
+    background-color:#00008b;
+    color:#fff;
+    text-align: center;
+    height:5em;
+    display: flex;
+    align-items: center;
+    
+}
+.header-top h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 3em;
+    word-spacing: 15px;
+    
+}
+.header-bottom{
+    background-color:#0D4F8B;    
+    color:#fff;
+    font-size: 20px;
+}
+.contact-me{
+    display:flex;
+    justify-content:space-between;
+    height:2em;
+    align-items: center;
+}
+
+.about-intro{
+    font-family: "Rancho",sans-serif;
+    font-size:16px;
+    margin-left: 20px;
+    line-height:1cm;
+}
+.line-space{
+    line-height:0.5cm;
+}
+.about-me{
+    display:flex;
+    align-items: center;
+}
+.about-section{
+    margin:0 auto;
+    font-size: 30px;
+    padding-right:50px;
+    text-align: center;
+    
+}
+.profile-photo{
+    margin:20px;
+    margin-left:30px;
+}
+
+.academic-title,.skill-title,.project-title,.por-title,.honor-title,.extra-title,.video-title,.code-title{
+    margin: 50px 0 15px 0;
+    background-color: #00008b;
+    word-spacing: 4px;
+}
+
+.academic-table table{
+    width:100%;
+    background-color: #007b8b;
+    line-height: 1.5;
+    
+}
+
+
+.container-1,.container-2{
+    display:flex;
+    justify-content: space-evenly;
+}
+.container-1 ul,.container-2 ul{
+    list-style:none;
+}
+.container-1 ul li{
+    text-align: center;
+}
+.container-2 ul li{
+    text-align: center;
+}
+.skill-title{
+    margin: 50px 0 15px 0;
+    background-color: #00008b;
+
+}
+.language,.technology,.interests,.framework,.soft,.hobby{
+    width:30%;
+}
+
+.language-title,.technology-title,.interest-title,.framework-title,.soft-title,.hobby-title,.project-1-name,.project-2-name,.project-3-name,.Secy-title{
+    background-color: #0D4F8B;
+    font-size: 16px;
+}
+
+.project-title{
+    margin: 50px 0 15px 0;
+    background-color: #00008b;
+
+}
+
+.project-1-name,.project-2-name,.project-3-name,.Secy-title{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.project-1-name,.project-2-name,.project-3-name,.Secy-title h2{
+    padding:0 0 0 15px;
+}
+
+.project-1-name h3{
+    padding:0 15px 0 0;
+    font-size: 16px;
+}
+.project-2-name h3{
+    padding:0 15px 0 0;
+    font-size: 16px;
+}
+.project-3-name h3{
+    padding:0 15px 0 0;
+    font-size: 16px;
+
+}
+.Project-1-desc,.project-2-desc,.project-3-desc,.por-desc,.language-list,.technology-list,.interest-list,.framework-list,.soft-list,.hobby-list{
+    background-color: #007b8b;
+    font-size:18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Secy-title h3{
+    padding:0 15px 0 0;
+    font-size: 16px;
+    
+}
+.achievements-list,.extra-list,.coding-list{
+    background-color: #007b8b;
+    font-size:18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.links,.address{
+    margin:22px;
+    text-align: center;
+}
+.links a{
+    padding-left:20px;
+    font-size: 22px;
+}
+.links-address{
+    background-color: #0D4F8B;
+    
+}
+.address{
+    padding-right:20px;
+    text-align: left;
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
+.footer-top{
+    
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+.developer{
+    background-color: #00008b;
+    height:3em;
+    padding-top:40px;
+    font-size: 20px;
+    display:flex;
+}
